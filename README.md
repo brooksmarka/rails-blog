@@ -1,24 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Local Development
 
-Things you may want to cover:
+To run the application locally run `bin/rails server` and navigate to localhost:3000.
 
-* Ruby version
+To view all of the routes in the application run `bin/rails routes`
 
-* System dependencies
+## Functionality
 
-* Configuration
+Navigate to `localhost:3000/articles/new` to create an article.
+Navigate to `localhost:3000/articles` to view all articles.
 
-* Database creation
+## Info
 
-* Database initialization
+This is running on Ruby Version 3.3.2 and Rails Version 7.2.1
 
-* How to run the test suite
+## Under Construction
 
-* Services (job queues, cache servers, search engines, etc.)
+Other things to think about are:
 
-* Deployment instructions
+- System dependencies
 
-* ...
+- Configuration
+
+- Database creation
+
+- Database initialization
+
+- How to run the test suite
+
+- Services (job queues, cache servers, search engines, etc.)
+
+- Deployment instructions
